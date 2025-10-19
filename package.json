@@ -1,0 +1,18 @@
+{
+  "name": "n8n-workflow-manager",
+  "version": "1.0.0",
+  "description": "Tools for managing n8n workflows in VS Code",
+  "main": "workflow-manager.js",
+  "scripts": {
+    "start": "node workflow-manager.js",
+    "list": "node workflow-manager.js list",
+    "template": "node workflow-manager.js template",
+    "validate": "node workflow-manager.js validate"
+  },
+  "keywords": ["n8n", "workflow", "automation", "vscode"],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
