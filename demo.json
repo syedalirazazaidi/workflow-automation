@@ -51,8 +51,8 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        224,
-        -240
+        208,
+        -272
       ],
       "id": "87bd10b8-b14f-439e-bf03-a0501ac12934",
       "name": "Edit Fields"
@@ -66,11 +66,41 @@
       "typeVersion": 1.3,
       "position": [
         -320,
-        -288
+        -272
       ],
       "id": "d6b5d7cb-01e4-456e-b044-dc532c752e6f",
       "name": "When chat message received",
       "webhookId": "999294f0-aa30-4303-9589-1038efd25701"
+    },
+    {
+      "parameters": {
+        "formTitle": "Demo",
+        "formDescription": "Binary Data",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Name ",
+              "placeholder": "enter your name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "File",
+              "fieldType": "file",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        416,
+        -272
+      ],
+      "id": "84a0e45f-4e58-4906-999e-cd6150a4b8eb",
+      "name": "On form submission",
+      "webhookId": "6438a55a-59cd-4b16-9fb2-ffaa563501be"
     }
   ],
   "pinData": {},
@@ -102,7 +132,7 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "7bc00b88-5449-4823-b341-e024c0d6f6de",
+  "versionId": "4abc5f8e-f52d-4320-98da-46e2ebd9053b",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "2cfc4e8c60d0289bbbcdf954778bed58ffe1455eba0303f612f647c7376713a4"
